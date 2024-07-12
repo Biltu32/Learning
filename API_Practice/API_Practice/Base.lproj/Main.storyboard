@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="API_Practice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fBT-0Z-JrL">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="0Vo-J1-z8t">
+                                        <rect key="frame" x="0.0" y="33.5" width="375" height="600"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <prototypes>
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="APITableViewCell" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="jIw-De-aae" customClass="APITableViewCell" customModule="API_Practice" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="44.5" width="375" height="43.5"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="APITableViewCell" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jIw-De-aae" id="fvD-Dq-lE3" customClass="APITableViewCell" customModule="API_Practice" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Data" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ne-7T-NFl">
+                                                            <rect key="frame" x="19" y="10.5" width="337.5" height="34.5"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </tableViewCellContentView>
+                                                <constraints>
+                                                    <constraint firstItem="3Ne-7T-NFl" firstAttribute="height" secondItem="jIw-De-aae" secondAttribute="height" multiplier="0.8" id="DP4-yk-sX2"/>
+                                                    <constraint firstItem="3Ne-7T-NFl" firstAttribute="centerX" secondItem="jIw-De-aae" secondAttribute="centerX" id="JYL-a0-nhS"/>
+                                                    <constraint firstItem="3Ne-7T-NFl" firstAttribute="width" secondItem="jIw-De-aae" secondAttribute="width" multiplier="0.9" id="PeC-7a-Rgi"/>
+                                                    <constraint firstAttribute="centerY" secondItem="3Ne-7T-NFl" secondAttribute="top" multiplier="2.1" id="VhG-PG-eli"/>
+                                                </constraints>
+                                            </tableViewCell>
+                                        </prototypes>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="0Vo-J1-z8t" firstAttribute="height" secondItem="fBT-0Z-JrL" secondAttribute="height" multiplier="0.9" id="ThC-bC-uoM"/>
+                                    <constraint firstItem="0Vo-J1-z8t" firstAttribute="centerY" secondItem="fBT-0Z-JrL" secondAttribute="centerY" id="any-mA-wqu"/>
+                                    <constraint firstItem="0Vo-J1-z8t" firstAttribute="centerX" secondItem="fBT-0Z-JrL" secondAttribute="centerX" id="mQC-nS-4td"/>
+                                    <constraint firstItem="0Vo-J1-z8t" firstAttribute="width" secondItem="fBT-0Z-JrL" secondAttribute="width" id="qEE-7i-7gT"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="fBT-0Z-JrL" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="3e6-76-IhE"/>
+                            <constraint firstItem="fBT-0Z-JrL" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="OvG-Nk-sMp"/>
+                            <constraint firstItem="fBT-0Z-JrL" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="fVI-4b-ukC"/>
+                            <constraint firstItem="fBT-0Z-JrL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qTt-Vg-pBW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tblvw" destination="0Vo-J1-z8t" id="RSr-Z3-RsL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="19" y="46"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
