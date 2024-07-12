@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="gTV-IL-0wX" customClass="CollectionViewCell" customModule="CollectionView" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="239" height="123"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="239" height="123"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pfd-GC-3Kz">
+                        <rect key="frame" x="0.0" y="0.0" width="239" height="123"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dHH-I0-Ngh">
+                                <rect key="frame" x="24" y="0.0" width="191" height="74"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KY3-5t-gOt">
+                                <rect key="frame" x="14.5" y="74" width="210" height="29.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="dHH-I0-Ngh" firstAttribute="width" secondItem="pfd-GC-3Kz" secondAttribute="width" multiplier="0.8" id="0HR-fL-eHY"/>
+                            <constraint firstItem="dHH-I0-Ngh" firstAttribute="top" secondItem="pfd-GC-3Kz" secondAttribute="top" id="0pi-w6-3Zf"/>
+                            <constraint firstItem="KY3-5t-gOt" firstAttribute="centerX" secondItem="dHH-I0-Ngh" secondAttribute="centerX" id="5HB-n9-PEi"/>
+                            <constraint firstItem="dHH-I0-Ngh" firstAttribute="height" secondItem="pfd-GC-3Kz" secondAttribute="height" multiplier="0.6" id="Oyp-vS-GBu"/>
+                            <constraint firstItem="KY3-5t-gOt" firstAttribute="top" secondItem="dHH-I0-Ngh" secondAttribute="bottom" id="W6E-xJ-36t"/>
+                            <constraint firstItem="KY3-5t-gOt" firstAttribute="width" secondItem="dHH-I0-Ngh" secondAttribute="width" multiplier="1.1" id="W9J-KB-rQa"/>
+                            <constraint firstItem="dHH-I0-Ngh" firstAttribute="centerX" secondItem="pfd-GC-3Kz" secondAttribute="centerX" id="Wvy-W1-QBx"/>
+                            <constraint firstItem="KY3-5t-gOt" firstAttribute="height" secondItem="dHH-I0-Ngh" secondAttribute="height" multiplier="0.4" id="dOY-ZB-aB0"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="pfd-GC-3Kz" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="cy0-zX-ktd"/>
+                <constraint firstItem="pfd-GC-3Kz" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" id="fv3-1k-nwr"/>
+                <constraint firstItem="pfd-GC-3Kz" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="jZG-Qg-uJC"/>
+                <constraint firstItem="pfd-GC-3Kz" firstAttribute="width" secondItem="ZTg-uK-7eu" secondAttribute="width" id="wUW-JP-YiS"/>
+            </constraints>
+            <size key="customSize" width="439" height="273"/>
+            <connections>
+                <outlet property="imageview" destination="dHH-I0-Ngh" id="CZR-uZ-hXH"/>
+                <outlet property="labelName" destination="KY3-5t-gOt" id="1vy-6M-ipz"/>
+                <outlet property="viewwithImageandName" destination="pfd-GC-3Kz" id="bcd-Rk-uZz"/>
+            </connections>
+            <point key="canvasLocation" x="260.14492753623188" y="136.27232142857142"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
