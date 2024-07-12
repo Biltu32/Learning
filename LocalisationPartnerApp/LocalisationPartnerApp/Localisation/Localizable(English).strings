@@ -1,0 +1,119 @@
+/* 
+  Localizable.strings
+  LocalisationPartnerApp
+
+  Created by DAPL-Asset-210 on 08/03/24.
+  
+*/
+
+// Starting VC
+"Motorbike Rental Made Simple" = "Motorbike Rental Made Simple";
+"Earn More" = "Earn More";
+"With Baik, opportunities to earn are endless. Tap into a larger customer base" = "With Baik, opportunities to earn are endless. Tap into a larger customer base";
+"Get Started" = "Get Started";
+
+"Safety" = "Safety";
+"Be your own boss. Rent out your motorbike safely through our secure network" = "Be your own boss. Rent out your motorbike safely through our secure network";
+
+"Community" = "Community";
+"Become a part of Indonesia's fastest-growing motorbike rental community with Baik" = "Become a part of Indonesia's fastest-growing motorbike rental community with Baik";
+
+//Sign in
+"LOGIN / SIGN UP" = "LOGIN / SIGN UP";
+"Continue With Facebook" = "Continue With Facebook";
+"Continue With Google" = "Continue With Google";
+"Continue With Linkedin" = "Continue With Linkedin";
+"Continue With Apple" = "Continue With Apple";
+"Continue With Mobile Number" = "Continue With Mobile Number";
+
+//My Bookings options
+"Inquiries" = "Inquiries";
+"Current" = "Current";
+"History" = "History";
+
+//inquiries or page 3
+"Your Net Income :" = "Your Net Income :";
+"Delivery Details" = "Delivery Details";
+"Delivery" = "Delivery";
+"Rental Period Till" = "Rental Period Till";
+"Delivery Address" = "Delivery Address";
+"Choose Motorbike" = "Choose Motorbike";
+"Accept" = "Accept";
+"Reject" = "Reject";
+
+//Current details page
+"Rental Period" = "Rental Period";
+"Delivery Time" = "Delivery Time";
+"Extend" = "Extend";
+"Location" = "Location";
+"Price Details" = "Price Details";
+"Government Tax" = "Government Tax";
+"Total Net Income" = "Total Net Income";
+"Platform fee" = "Platform fee";
+"Payable Ammount" = "Payable Ammount";
+"Payment Method" = "Payment Method";
+"Extend Income" = "Extend Income";
+"User Details" = "User Details";
+"Chat" = "Chat";
+"Call" = "Call";
+"OTP Code :" = "OTP Code :";
+"Submit" = "Submit";
+"When you meet the Client to handover the motorbike, they will give you a unique code. Please enter this code in the app. This step is crucial as it allows the release of payment funds into your Wallet." = "When you meet the Client to handover the motorbike, they will give you a unique code. Please enter this code in the app. This step is crucial as it allows the release of payment funds into your Wallet.";
+
+//wallet VC
+"Wallet" = "Wallet";
+"Total Wallet Balance" = "Total Wallet Balance";
+"Deposit" = "Deposit";
+"Add Money" = "Add Money";
+"Add" = "Add";
+"Cash Out" = "Cash Out";
+"Withdraw" = "Withdraw";
+"Withdrawal" = "Withdrawal";
+"Change" = "Change";
+"Accept Cash Payment" = "Accept Cash Payment";
+"Available" = "Available";
+"In order to accept cash payments from Clients they need to make a minimum deposit of xxxx amount into their Wallet" = "In order to accept cash payments from Clients they need to make a minimum deposit of xxxx amount into their Wallet";
+
+//wallet history VC
+"This Week" = "This Week";
+"Last Month" = "Last Month";
+"Transaction History" = "Transaction History";
+
+//Sidemenu
+"My Bookings" = "My Bookings";
+"My Registered Motorbikes" = "My Registered Motorbikes";
+"My Profile" = "My Profile";
+"Review and Rating" = "Review and Rating";
+"My Wallet" = " My Wallet";
+"Payment Methods" = "Payment Methods";
+"Referrals" = "Referrals";
+"Terms & Condition" = "Terms & Condition";
+"Need Help" = "Need Help";
+"Rate Us" = "Rate Us";
+"Logout" = "Logout";
+
+//Registered Motorbike Details
+"Motorbike Photo" = "Motorbike Photo";
+"Motorbike Type" = "Motorbike Type";
+"Motorbike Brand" = "Motorbike Brand";
+"Motorbike Model" = "Motorbike Model";
+"Date Of First Registration" = "Date Of First Registration";
+"Registration Number" = "Registration Number";
+"Color" = "Color";
+"Additional Equipment" = "Additional Equipment";
+"Motorbike Parking Place" = "Motorbike Parking Place";
+"Declared Delivery Distance" = "Declared Delivery Distance";
+"Add Motorbike Document" = "Add Motorbike Document";
+"Mandatory Fields" = "Mandatory Fields";
+"Edit Details" = "Edit Details";
+
+// My Profile VC
+"Full Name" = "Full Name";
+"Email" = "Email";
+"Mobile Number" = "Mobile Number";
+"Gender" = "Gender";
+"Language" = "Language";
+"ID Proof Type" = "ID Proof Type";
+"ID Number" = "ID Number";
+"Upload ID Proof " = "Upload ID Proof";
+"Edit Profile" = "Edit Profile";

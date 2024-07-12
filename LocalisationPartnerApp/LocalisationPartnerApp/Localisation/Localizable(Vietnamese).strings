@@ -1,0 +1,119 @@
+/* 
+  Localizable(Vietnamese).strings
+  LocalisationPartnerApp
+
+  Created by DAPL-Asset-210 on 08/03/24.
+  
+*/
+
+// Starting VC
+"Motorbike Rental Made Simple" = "Thuê xe máy thật đơn giản";
+"Earn More" = "Kiếm nhiều hơn";
+"With Baik, opportunities to earn are endless. Tap into a larger customer base" = "Với Baik, cơ hội kiếm tiền là vô tận. Khai thác cơ sở khách hàng lớn hơn";
+"Get Started" = "Bắt đầu";
+
+"Safety" = "Sự an toàn";
+"Be your own boss. Rent out your motorbike safely through our secure network" = "Hãy là ông chủ của riêng bạn. Thuê xe máy của bạn một cách an toàn thông qua mạng lưới an toàn của chúng tôi";
+
+"Community" = "Cộng đồng";
+"Become a part of Indonesia's fastest-growing motorbike rental community with Baik" = "Trở thành một phần của cộng đồng cho thuê xe máy phát triển nhanh nhất Indonesia với Baik";
+
+//Sign in
+"LOGIN / SIGN UP" = "ĐĂNG NHẬP ĐĂNG KÝ";
+"Continue With Facebook" = "Tiếp tục với Facebook";
+"Continue With Google" = "Tiếp tục với Google";
+"Continue With Linkedin" = "Tiếp tục với Linkedin";
+"Continue With Apple" = "Tiếp tục với Apple";
+"Continue With Mobile Number" = "Tiếp tục với số điện thoại di động";
+
+//My Bookings options
+"Inquiries" = "Thắc mắc";
+"Current" = "Hiện hành";
+"History" = "Lịch sử";
+
+//inquiries details page
+"Your Net Income :" = "Thu nhập ròng của bạn:";
+"Delivery Details" = "Chi tiết giao hàng";
+"Delivery" = "Vận chuyển";
+"Rental Period Till" = "Thời hạn thuê cho đến khi";
+"Delivery Address" = "Địa chỉ giao hàng";
+"Choose Motorbike" = "Chọn xe máy";
+"Accept" = "Chấp nhận";
+"Reject" = "Từ chối";
+
+//Current details page
+"Rental Period" = "Thời gian thuê";
+"Delivery Time" = "Thời gian giao hàng";
+"Extend" = "Mở rộng";
+"Location" = "Vị trí";
+"Price Details" = "Chi tiết giá";
+"Government Tax" = "Thuế của chính phủ";
+"Total Net Income" = "Tổng thu nhập ròng";
+"Platform fee" = "Phí nền tảng";
+"Payable Ammount" = "Số tiền phải trả";
+"Payment Method" = "Phương thức thanh toán";
+"Extend Income" = "Gia hạn thu nhập";
+"User Details" = "Chi tiết người dùng";
+"Chat" = "Trò chuyện";
+"Call" = "Gọi";
+"OTP Code :" = "Mã OTP:";
+"Submit" = "Nộp";
+"When you meet the Client to handover the motorbike, they will give you a unique code. Please enter this code in the app. This step is crucial as it allows the release of payment funds into your Wallet." = "Khi bạn gặp Khách hàng để giao xe, họ sẽ cấp cho bạn một mã số duy nhất. Vui lòng nhập mã này vào ứng dụng. Bước này rất quan trọng vì nó cho phép chuyển tiền thanh toán vào Ví của bạn.";
+
+//wallet VC
+"Wallet" = "Cái ví";
+"Total Wallet Balance" = "Tổng số dư trên ví";
+"Deposit" = "Tiền gửi";
+"Add Money" = "Thêm tiền";
+"Add" = "Thêm vào";
+"Cash Out" = "Rút tiền";
+"Withdraw" = "Rút";
+"Withdrawal" = "Rút tiền";
+"Change" = "Thay đổi";
+"Accept Cash Payment" = "Chấp nhận thanh toán tiền mặt";
+"Available" = "Có sẵn";
+"In order to accept cash payments from Clients they need to make a minimum deposit of xxxx amount into their Wallet" = "Để chấp nhận thanh toán bằng tiền mặt từ Khách hàng, họ cần gửi số tiền tối thiểu xxxx vào Ví của mình";
+
+//wallet history VC
+"This Week" = "Tuần này";
+"Last Month" = "Tháng trước";
+"Transaction History" = "Lịch sử giao dịch";
+
+//Sidemenu
+"My Bookings" = "Đặt chỗ của tôi";
+"My Registered Motorbikes" = "Xe máy đã đăng ký của tôi";
+"My Profile" = "Thông tin của tôi";
+"Review and Rating" = "Đánh giá và xếp hạng";
+"My Wallet" = "Ví của tôi";
+"Payment Methods" = "Phương thức thanh toán";
+"Referrals" = "Giới thiệu";
+"Terms & Condition" = "Điều khoản & Điều kiện";
+"Need Help" = "Cần giúp đỡ";
+"Rate Us" = "Đánh giá chúng tôi";
+"Logout" = "Đăng xuất";
+
+//Registered Motorbike Details
+"Motorbike Photo" = "Ảnh xe máy";
+"Motorbike Type" = "Loại xe máy";
+"Motorbike Brand" = "Thương hiệu xe máy";
+"Motorbike Model" = "Mẫu xe máy";
+"Date Of First Registration" = "Ngày đăng ký đầu tiên";
+"Registration Number" = "Số đăng ký";
+"Color" = "Màu sắc";
+"Additional Equipment" = "Thiết bị bổ sung";
+"Motorbike Parking Place" = "Nơi để xe máy";
+"Declared Delivery Distance" = "Khoảng cách giao hàng được khai báo";
+"Add Motorbike Document" = "Thêm tài liệu xe máy";
+"Mandatory Fields" = "Các trường bắt buộc";
+"Edit Details" = "Chỉnh sửa chi tiết";
+
+// My Profile VC
+"Full Name" = "Họ và tên";
+"Email" = "E-mail";
+"Mobile Number" = "Số điện thoại";
+"Gender" = "Giới tính";
+"Language" = "Ngôn ngữ";
+"ID Proof Type" = "Loại bằng chứng ID";
+"ID Number" = "Số ID";
+"Upload ID Proof " = "Tải lên bằng chứng ID";
+"Edit Profile" = "Chỉnh sửa hồ sơ";

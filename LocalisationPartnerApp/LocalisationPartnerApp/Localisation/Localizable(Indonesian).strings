@@ -1,0 +1,119 @@
+/* 
+  Localizable(Indonesian).strings
+  LocalisationPartnerApp
+
+  Created by DAPL-Asset-210 on 08/03/24.
+  
+*/
+
+// Starting VC
+"Motorbike Rental Made Simple" = "Penyewaan Sepeda Motor Menjadi Sederhana";
+"Earn More" = "Dapatkan lebih";
+"With Baik, opportunities to earn are endless. Tap into a larger customer base" = "Dengan Baik, peluang untuk mendapatkan penghasilan tidak terbatas. Memanfaatkan basis pelanggan yang lebih besar";
+"Get Started" = "Memulai";
+
+"Safety" = "Keamanan";
+"Be your own boss. Rent out your motorbike safely through our secure network" = "Jadilah bos bagi diri Anda sendiri. Sewakan sepeda motor Anda dengan aman melalui jaringan aman kami";
+
+"Community" = "Masyarakat";
+"Become a part of Indonesia's fastest-growing motorbike rental community with Baik" = "Jadilah bagian dari komunitas persewaan sepeda motor dengan pertumbuhan tercepat di Indonesia bersama Baik";
+
+//Sign in
+"LOGIN / SIGN UP" = "MASUK DAFTAR";
+"Continue With Facebook" = "Lanjutkan Dengan Facebook";
+"Continue With Google" = "Lanjutkan Dengan Google";
+"Continue With Linkedin" = "Lanjutkan Dengan Linkedin";
+"Continue With Apple" = "Lanjutkan Dengan Apple";
+"Continue With Mobile Number" = "Lanjutkan Dengan Nomor Ponsel";
+
+//My Bookings options
+"Inquiries" = "Pertanyaan";
+"Current" = "Saat ini";
+"History" = "Sejarah";
+
+//inquiries or page 3
+"Your Net Income :" = "Pendapatan Bersih Anda :";
+"Delivery Details" = "Detail Pengiriman";
+"Delivery" = "Pengiriman";
+"Rental Period Till" = "Masa Sewa Sampai";
+"Delivery Address" = "Alamat pengiriman";
+"Choose Motorbike" = "Pilih Sepeda Motor";
+"Accept" = "Menerima";
+"Reject" = "Menolak";
+
+//Current details page
+"Rental Period" = "Masa Sewa";
+"Delivery Time" = "Waktu Pengiriman";
+"Extend" = "Memperpanjang";
+"Location" = "Lokasi";
+"Price Details" = "Detail Harga";
+"Government Tax" = "Pajak pemerintah";
+"Total Net Income" = "Jumlah Pendapatan Bersih";
+"Platform fee" = "Biaya platform";
+"Payable Ammount" = "Jumlah Hutang";
+"Payment Method" = "Cara Pembayaran";
+"Extend Income" = "Memperluas Penghasilan";
+"User Details" = "Detail Pengguna";
+"Chat" = "Mengobrol";
+"Call" = "Panggilan";
+"OTP Code :" = "Kode OTP :";
+"Submit" = "Kirim";
+"When you meet the Client to handover the motorbike, they will give you a unique code. Please enter this code in the app. This step is crucial as it allows the release of payment funds into your Wallet." = "Saat Anda menemui Klien untuk serah terima sepeda motor, mereka akan memberi Anda kode unik. Silakan masukkan kode ini di aplikasi. Langkah ini penting karena memungkinkan keluarnya dana pembayaran ke Dompet Anda.";
+
+//wallet VC
+"Wallet" = "Dompet";
+"Total Wallet Balance" = "Total Saldo Dompet";
+"Deposit" = "Menyetorkan";
+"Add Money" = "Tambahkan Uang";
+"Add" = "Menambahkan";
+"Cash Out" = "Kas keluar";
+"Withdraw" = "Menarik";
+"Withdrawal" = "Penarikan";
+"Change" = "Mengubah";
+"Accept Cash Payment" = "Terima Pembayaran Tunai";
+"Available" = "Tersedia";
+"In order to accept cash payments from Clients they need to make a minimum deposit of xxxx amount into their Wallet" = "Untuk menerima pembayaran tunai dari Klien, mereka perlu melakukan deposit minimum sejumlah xxxx ke dalam Dompet mereka";
+
+//wallet history VC
+"This Week" = "Minggu ini";
+"Last Month" = "Bulan lalu";
+"Transaction History" = "sejarah transaksi";
+
+//Sidemenu
+"My Bookings" = "Pemesanan Saya";
+"My Registered Motorbikes" = "Sepeda Motor Saya yang Terdaftar";
+"My Profile" = "Profil saya";
+"Review and Rating" = "Ulasan dan Penilaian";
+"My Wallet" = "Dompetku";
+"Payment Methods" = "cara Pembayaran";
+"Referrals" = "Referensi";
+"Terms & Condition" = "Syarat & Ketentuan";
+"Need Help" = "Butuh bantuan";
+"Rate Us" = "Nilai Kami";
+"Logout" = "Keluar";
+
+//Registered Motorbike Details
+"Motorbike Photo" = "Foto Sepeda Motor";
+"Motorbike Type" = "Tipe Sepeda Motor";
+"Motorbike Brand" = "Merek Sepeda Motor";
+"Motorbike Model" = "Model Sepeda Motor";
+"Date Of First Registration" = "Tanggal Pendaftaran Pertama";
+"Registration Number" = "Nomor pendaftaran";
+"Color" = "Warna";
+"Additional Equipment" = "Peralatan tambahan";
+"Motorbike Parking Place" = "Tempat Parkir Sepeda Motor";
+"Declared Delivery Distance" = "Jarak Pengiriman yang Dinyatakan";
+"Add Motorbike Document" = "Tambahkan Dokumen Sepeda Motor";
+"Mandatory Fields" = "Bidang wajib";
+"Edit Details" = "Sunting Detail";
+
+// My Profile VC
+"Full Name" = "Nama lengkap";
+"Email" = "Surel";
+"Mobile Number" = "Nomor handphone";
+"Gender" = "Jenis kelamin";
+"Language" = "Bahasa";
+"ID Proof Type" = "Jenis Bukti ID";
+"ID Number" = "Nomor ID";
+"Upload ID Proof" = "Unggah Bukti ID";
+"Edit Profile" = "Sunting profil";

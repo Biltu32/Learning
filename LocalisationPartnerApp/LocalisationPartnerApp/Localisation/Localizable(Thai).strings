@@ -1,0 +1,119 @@
+/* 
+  Localizable(Thai).strings
+  LocalisationPartnerApp
+
+  Created by DAPL-Asset-210 on 08/03/24.
+  
+*/
+
+// Starting VC
+"Motorbike Rental Made Simple" = "การเช่ามอเตอร์ไซค์ทำได้ง่าย";
+"Earn More" = "รับมากขึ้น";
+"With Baik, opportunities to earn are endless. Tap into a larger customer base" = "ด้วย Baik โอกาสในการสร้างรายได้ไม่มีที่สิ้นสุด เข้าถึงฐานลูกค้าที่ใหญ่ขึ้น";
+"Get Started" = "เริ่ม";
+
+"Safety" = "ความปลอดภัย";
+"Be your own boss. Rent out your motorbike safely through our secure network" = "เป็นนายของตัวเอง เช่ามอเตอร์ไซค์ของคุณอย่างปลอดภัยผ่านเครือข่ายที่ปลอดภัยของเรา";
+
+"Community" = "ชุมชน";
+"Become a part of Indonesia's fastest-growing motorbike rental community with Baik" = "ร่วมเป็นส่วนหนึ่งของชุมชนเช่ามอเตอร์ไซค์ที่เติบโตเร็วที่สุดของอินโดนีเซียกับ Baik";
+
+//Sign in
+"LOGIN / SIGN UP" = "เข้าสู่ระบบ / ลงทะเบียน";
+"Continue With Facebook" = "ดำเนินการต่อด้วย Facebook";
+"Continue With Google" = "ดำเนินการต่อด้วย Google";
+"Continue With Linkedin" = "ดำเนินการต่อด้วย Linkedin";
+"Continue With Apple" = "ดำเนินการต่อด้วย Apple";
+"Continue With Mobile Number" = "ดำเนินการต่อด้วยหมายเลขโทรศัพท์มือถือ";
+
+//My Bookings options
+"Inquiries" = "สอบถามรายละเอียดเพิ่มเติม";
+"Current" = "ปัจจุบัน";
+"History" = "ประวัติศาสตร์";
+
+//inquiries or page 3
+"Your Net Income :" = "รายได้สุทธิของคุณ :";
+"Delivery Details" = "รายละเอียดการจัดส่ง";
+"Delivery" = "จัดส่ง";
+"Rental Period Till" = "ระยะเวลาการเช่าจนถึง";
+"Delivery Address" = "ที่อยู่สำหรับการจัดส่ง";
+"Choose Motorbike" = "เลือกรถมอเตอร์ไซค์";
+"Accept" = "ยอมรับ";
+"Reject" = "ปฏิเสธ";
+
+//Current details page
+"Rental Period" = "ระยะเวลาการเช่า";
+"Delivery Time" = "เวลาการส่งมอบ";
+"Extend" = "ขยาย";
+"Location" = "ที่ตั้ง";
+"Price Details" = "รายละเอียดราคา";
+"Government Tax" = "ภาษีรัฐบาล";
+"Total Net Income" = "รายได้สุทธิทั้งหมด";
+"Platform fee" = "ค่าธรรมเนียมแพลตฟอร์ม";
+"Payable Ammount" = "จำนวนเงินที่ต้องชำระ";
+"Payment Method" = "วิธีการชำระเงิน";
+"Extend Income" = "ขยายรายได้";
+"User Details" = "รายละเอียดผู้ใช้";
+"Chat" = "แชท";
+"Call" = "เรียก";
+"OTP Code :" = "รหัส OTP :";
+"Submit" = "ส่ง";
+"When you meet the Client to handover the motorbike, they will give you a unique code. Please enter this code in the app. This step is crucial as it allows the release of payment funds into your Wallet." = "เมื่อคุณพบลูกค้าเพื่อส่งมอบรถมอเตอร์ไซค์ พวกเขาจะมอบรหัสเฉพาะให้กับคุณ กรุณากรอกรหัสนี้ในแอป ขั้นตอนนี้มีความสำคัญเนื่องจากช่วยให้สามารถโอนเงินเข้า Wallet ของคุณได้";
+
+//wallet VC
+"Wallet" = "Wallet";
+"Total Wallet Balance" = "ยอดคงเหลือในกระเป๋าสตางค์ทั้งหมด";
+"Deposit" = "เงินฝาก";
+"Add Money" = "เพิ่มเงิน";
+"Add" = "เพิ่ม";
+"Cash Out" = "เงินออก";
+"Withdraw" = "ถอน";
+"Withdrawal" = "การถอนเงิน";
+"Change" = "เปลี่ยน";
+"Accept Cash Payment" = "รับชำระด้วยเงินสด";
+"Available" = "มีอยู่";
+"In order to accept cash payments from Clients they need to make a minimum deposit of xxxx amount into their Wallet" = "เพื่อที่จะรับการชำระเงินด้วยเงินสดจากลูกค้า พวกเขาจำเป็นต้องฝากเงินขั้นต่ำจำนวน xxxx เข้ากระเป๋าเงินของพวกเขา";
+
+//wallet history VC
+"This Week" = "ในสัปดาห์นี้";
+"Last Month" = "เดือนที่แล้ว";
+"Transaction History" = "ประวัติการทำรายการ";
+
+//Sidemenu
+"My Bookings" = "การจองของฉัน";
+"My Registered Motorbikes" = "รถมอเตอร์ไซค์ที่ลงทะเบียนของฉัน";
+"My Profile" = "ประวัติของฉัน";
+"Review and Rating" = "ทบทวนและให้คะแนน";
+"My Wallet" = "กระเป๋าเงินของฉัน";
+"Payment Methods" = "วิธีการชำระเงิน";
+"Referrals" = "การอ้างอิง";
+"Terms & Condition" = "ข้อกำหนดและเงื่อนไข";
+"Need Help" = "ต้องการความช่วยเหลือ";
+"Rate Us" = "ให้คะแนนเรา";
+"Logout" = "ออกจากระบบ";
+
+//Registered Motorbike Details
+"Motorbike Photo" = "ภาพถ่ายรถมอเตอร์ไซค์";
+"Motorbike Type" = "ประเภทรถมอเตอร์ไซค์";
+"Motorbike Brand" = "แบรนด์รถมอเตอร์ไซค์";
+"Motorbike Model" = "โมเดลรถมอเตอร์ไซค์";
+"Date Of First Registration" = "วันที่ลงทะเบียนครั้งแรก";
+"Registration Number" = "ทะเบียนเลขที่";
+"Color" = "สี";
+"Additional Equipment" = "อุปกรณ์เพิ่มเติม";
+"Motorbike Parking Place" = "ที่จอดมอเตอร์ไซค์";
+"Declared Delivery Distance" = "ระยะทางในการจัดส่งที่ประกาศ";
+"Add Motorbike Document" = "เพิ่มเอกสารมอเตอร์ไซค์";
+"Mandatory Fields" = "ช่องบังคับ";
+"Edit Details" = "แก้ไขรายละเอียด";
+
+// My Profile VC
+"Full Name" = "ชื่อเต็ม";
+"Email" = "อีเมล";
+"Mobile Number" = "เบอร์มือถือ";
+"Gender" = "เพศ";
+"Language" = "ภาษา";
+"ID Proof Type" = "ประเภทหลักฐานประจำตัว";
+"ID Number" = "หมายเลขประจำตัวประชาชน";
+"Upload ID Proof " = "อัปโหลดหลักฐานประจำตัว";
+"Edit Profile" = "แก้ไขโปรไฟล์";
