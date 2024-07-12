@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="50" id="KGk-i7-Jjw" customClass="TableViewCell" customModule="BarbtnAlertTableview" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="365" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="365" height="50"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="keH-vt-uu9">
+                        <rect key="frame" x="0.0" y="0.0" width="365" height="50"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="akO-PT-EGf">
+                                <rect key="frame" x="36.5" y="3.5" width="292" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XHM-Gf-jR7">
+                                <rect key="frame" x="36.5" y="27" width="292" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="XHM-Gf-jR7" firstAttribute="centerX" secondItem="akO-PT-EGf" secondAttribute="centerX" id="9T5-gv-xbB"/>
+                            <constraint firstItem="XHM-Gf-jR7" firstAttribute="width" secondItem="akO-PT-EGf" secondAttribute="width" id="Gcd-XZ-zYg"/>
+                            <constraint firstAttribute="centerY" secondItem="akO-PT-EGf" secondAttribute="top" multiplier="7" id="M8T-Kb-jA7"/>
+                            <constraint firstItem="XHM-Gf-jR7" firstAttribute="top" secondItem="akO-PT-EGf" secondAttribute="bottom" multiplier="1.1" id="Vzf-CH-jrx"/>
+                            <constraint firstItem="akO-PT-EGf" firstAttribute="height" secondItem="keH-vt-uu9" secondAttribute="height" multiplier="0.42" id="aoh-3X-yhs"/>
+                            <constraint firstItem="akO-PT-EGf" firstAttribute="centerX" secondItem="keH-vt-uu9" secondAttribute="centerX" id="cfi-vW-IeE"/>
+                            <constraint firstItem="XHM-Gf-jR7" firstAttribute="height" secondItem="akO-PT-EGf" secondAttribute="height" id="ex7-wE-T54"/>
+                            <constraint firstItem="akO-PT-EGf" firstAttribute="width" secondItem="keH-vt-uu9" secondAttribute="width" multiplier="0.8" id="mVj-oq-3Iq"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="keH-vt-uu9" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" id="K28-s5-JgX"/>
+                    <constraint firstItem="keH-vt-uu9" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" id="LGA-8o-VeB"/>
+                    <constraint firstItem="keH-vt-uu9" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="V7m-xC-Ory"/>
+                    <constraint firstItem="keH-vt-uu9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="igT-RM-fih"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="labelEmail" destination="XHM-Gf-jR7" id="DSJ-DQ-iM4"/>
+                <outlet property="labelName" destination="akO-PT-EGf" id="Sj1-Ih-TtO"/>
+            </connections>
+            <point key="canvasLocation" x="163.04347826086959" y="66.964285714285708"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
