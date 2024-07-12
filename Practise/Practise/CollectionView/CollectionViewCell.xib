@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="gTV-IL-0wX" customClass="CollectionViewCell" customModule="Practise" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="70"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="100" height="70"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S7T-an-7HU">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="70"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 - 10" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UTF-aE-u0W">
+                                <rect key="frame" x="15" y="3.5" width="70" height="38.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Years" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PFE-iY-pCq">
+                                <rect key="frame" x="22" y="38" width="56" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" systemColor="systemGray3Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="UTF-aE-u0W" secondAttribute="top" multiplier="10" id="F0f-Rb-4t6"/>
+                            <constraint firstItem="PFE-iY-pCq" firstAttribute="top" secondItem="UTF-aE-u0W" secondAttribute="bottom" multiplier="0.9" id="KpV-ia-Iz4"/>
+                            <constraint firstItem="PFE-iY-pCq" firstAttribute="centerX" secondItem="UTF-aE-u0W" secondAttribute="centerX" id="apG-OZ-Pb3"/>
+                            <constraint firstItem="UTF-aE-u0W" firstAttribute="width" secondItem="S7T-an-7HU" secondAttribute="width" multiplier="0.7" id="cmX-EA-9Q4"/>
+                            <constraint firstItem="PFE-iY-pCq" firstAttribute="height" secondItem="UTF-aE-u0W" secondAttribute="height" multiplier="0.693878" id="d9n-Bd-kFH"/>
+                            <constraint firstItem="PFE-iY-pCq" firstAttribute="width" secondItem="UTF-aE-u0W" secondAttribute="width" multiplier="0.8" id="faD-nr-liv"/>
+                            <constraint firstItem="UTF-aE-u0W" firstAttribute="centerX" secondItem="S7T-an-7HU" secondAttribute="centerX" id="gId-HF-SXj"/>
+                            <constraint firstItem="UTF-aE-u0W" firstAttribute="height" secondItem="S7T-an-7HU" secondAttribute="height" multiplier="0.55" id="ohd-zi-xZ9"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="S7T-an-7HU" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="21G-bw-iSP"/>
+                <constraint firstItem="S7T-an-7HU" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" id="ChF-Jw-oqR"/>
+                <constraint firstItem="S7T-an-7HU" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" id="Yaf-op-fIo"/>
+                <constraint firstItem="S7T-an-7HU" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="vz3-Sf-82S"/>
+            </constraints>
+            <size key="customSize" width="200" height="147"/>
+            <connections>
+                <outlet property="labelnumber" destination="UTF-aE-u0W" id="liR-Yc-Khn"/>
+                <outlet property="labelyear" destination="PFE-iY-pCq" id="vfe-nU-Dt4"/>
+                <outlet property="viewoflabel" destination="S7T-an-7HU" id="t8h-Ml-9nS"/>
+            </connections>
+            <point key="canvasLocation" x="240.57971014492756" y="94.084821428571431"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
