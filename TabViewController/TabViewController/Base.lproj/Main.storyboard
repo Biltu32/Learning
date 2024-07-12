@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5sU-Y2-XXy">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="WID-L7-UfT">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" id="5sU-Y2-XXy" customClass="HomeViewController" customModule="TabViewController" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uNZ-UR-qi1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h0e-It-3hE">
+                                <rect key="frame" x="131.5" y="66.5" width="112.5" height="27"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cL1-cM-WZM"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="h0e-It-3hE" firstAttribute="centerX" secondItem="cL1-cM-WZM" secondAttribute="centerX" id="9zO-T0-1N4"/>
+                            <constraint firstAttribute="centerY" secondItem="h0e-It-3hE" secondAttribute="top" multiplier="5" id="XgA-Gu-o4U"/>
+                            <constraint firstItem="h0e-It-3hE" firstAttribute="height" secondItem="uNZ-UR-qi1" secondAttribute="height" multiplier="0.04" id="ZmS-Dt-USF"/>
+                            <constraint firstItem="h0e-It-3hE" firstAttribute="width" secondItem="uNZ-UR-qi1" secondAttribute="width" multiplier="0.3" id="vd6-RM-cc7"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mv8-Va-2Bn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="919" y="45"/>
+        </scene>
+        <!--Search View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="SearchViewController" id="BYZ-38-t0r" customClass="SearchViewController" customModule="TabViewController" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ot6-zX-cff">
+                                <rect key="frame" x="131.5" y="66.5" width="112.5" height="33.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="Ot6-zX-cff" secondAttribute="top" multiplier="5" id="DSX-Uy-ABA"/>
+                            <constraint firstItem="Ot6-zX-cff" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.05" id="cEJ-0a-v3Y"/>
+                            <constraint firstItem="Ot6-zX-cff" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="oc3-YO-7Ln"/>
+                            <constraint firstItem="Ot6-zX-cff" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.3" id="rVC-yx-Wh6"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1896.8" y="45.42728635682159"/>
+        </scene>
+        <!--Profile View Controller-->
+        <scene sceneID="5bd-o6-bqQ">
+            <objects>
+                <viewController storyboardIdentifier="ProfileViewController" id="0zy-9Y-BGt" customClass="ProfileViewController" customModule="TabViewController" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iO0-yo-TX9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profile" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3od-3h-WNa">
+                                <rect key="frame" x="112.5" y="83.5" width="150" height="33.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="IVN-vP-PQs"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3od-3h-WNa" firstAttribute="centerX" secondItem="IVN-vP-PQs" secondAttribute="centerX" id="17P-6d-eNM"/>
+                            <constraint firstAttribute="centerY" secondItem="3od-3h-WNa" secondAttribute="top" multiplier="4" id="8HG-hS-tGC"/>
+                            <constraint firstItem="3od-3h-WNa" firstAttribute="height" secondItem="iO0-yo-TX9" secondAttribute="height" multiplier="0.0502249" id="8Yg-oZ-fr9"/>
+                            <constraint firstItem="3od-3h-WNa" firstAttribute="width" secondItem="iO0-yo-TX9" secondAttribute="width" multiplier="0.4" id="qMT-Ug-yYI"/>
+                        </constraints>
+                    </view>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7s3-pK-PW9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2860" y="45"/>
+        </scene>
+        <!--Bookmark View Controller-->
+        <scene sceneID="Aq2-Ui-90B">
+            <objects>
+                <viewController storyboardIdentifier="BookmarkViewController" id="ivI-T4-eEu" customClass="BookmarkViewController" customModule="TabViewController" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Teo-8U-zvu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bookmark" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IFD-LI-FWu">
+                                <rect key="frame" x="112.5" y="83.5" width="150" height="33.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jOb-8R-Eqp"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="IFD-LI-FWu" firstAttribute="width" secondItem="Teo-8U-zvu" secondAttribute="width" multiplier="0.4" id="6Mt-8m-6L5"/>
+                            <constraint firstItem="IFD-LI-FWu" firstAttribute="centerX" secondItem="jOb-8R-Eqp" secondAttribute="centerX" id="7AI-qO-4we"/>
+                            <constraint firstItem="IFD-LI-FWu" firstAttribute="height" secondItem="Teo-8U-zvu" secondAttribute="height" multiplier="0.0502249" id="XqZ-vG-hbP"/>
+                            <constraint firstAttribute="centerY" secondItem="IFD-LI-FWu" secondAttribute="top" multiplier="4" id="oT2-dV-Tqo"/>
+                        </constraints>
+                    </view>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qdW-JS-16q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3831" y="45"/>
+        </scene>
+        <!--Delete View Controller-->
+        <scene sceneID="UXb-ER-1G8">
+            <objects>
+                <viewController storyboardIdentifier="DeleteViewController" id="rZ8-CM-dK6" customClass="DeleteViewController" customModule="TabViewController" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PHO-BB-nFr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delete" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6AZ-Wu-fUg">
+                                <rect key="frame" x="131.5" y="83.5" width="112.5" height="33.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6RM-Ls-khz"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="6AZ-Wu-fUg" secondAttribute="top" multiplier="4" id="3Uc-Zf-dRQ"/>
+                            <constraint firstItem="6AZ-Wu-fUg" firstAttribute="centerX" secondItem="6RM-Ls-khz" secondAttribute="centerX" id="Tk3-uF-kMy"/>
+                            <constraint firstItem="6AZ-Wu-fUg" firstAttribute="width" secondItem="PHO-BB-nFr" secondAttribute="width" multiplier="0.3" id="i6i-mP-v0O"/>
+                            <constraint firstItem="6AZ-Wu-fUg" firstAttribute="height" secondItem="PHO-BB-nFr" secondAttribute="height" multiplier="0.0502249" id="lv5-cN-4Gg"/>
+                        </constraints>
+                    </view>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xja-2G-BOD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4740" y="45"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
