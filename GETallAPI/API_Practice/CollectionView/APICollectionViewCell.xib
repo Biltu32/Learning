@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="gTV-IL-0wX" customClass="APICollectionViewCell" customModule="API_Practice" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="300" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4qR-dK-ryB">
+                        <rect key="frame" x="0.0" y="0.0" width="300" height="50"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ID" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lRB-PI-dR8">
+                                <rect key="frame" x="15" y="5" width="270" height="17.5"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bdb-7f-geT">
+                                <rect key="frame" x="15" y="23.5" width="270" height="24.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Bdb-7f-geT" firstAttribute="width" secondItem="lRB-PI-dR8" secondAttribute="width" id="Uga-hf-Wwg"/>
+                            <constraint firstItem="Bdb-7f-geT" firstAttribute="height" secondItem="lRB-PI-dR8" secondAttribute="height" multiplier="1.4" id="Wme-r3-beM"/>
+                            <constraint firstItem="lRB-PI-dR8" firstAttribute="height" secondItem="4qR-dK-ryB" secondAttribute="height" multiplier="0.35" id="iZY-Mw-cd2"/>
+                            <constraint firstAttribute="centerY" secondItem="lRB-PI-dR8" secondAttribute="top" multiplier="5" id="nml-eD-gcp"/>
+                            <constraint firstItem="Bdb-7f-geT" firstAttribute="top" secondItem="lRB-PI-dR8" secondAttribute="bottom" multiplier="1.05" id="pLS-Xl-bH1"/>
+                            <constraint firstItem="Bdb-7f-geT" firstAttribute="centerX" secondItem="lRB-PI-dR8" secondAttribute="centerX" id="qlO-6y-OSF"/>
+                            <constraint firstItem="lRB-PI-dR8" firstAttribute="width" secondItem="4qR-dK-ryB" secondAttribute="width" multiplier="0.9" id="rJ2-5v-0Nc"/>
+                            <constraint firstItem="lRB-PI-dR8" firstAttribute="centerX" secondItem="4qR-dK-ryB" secondAttribute="centerX" id="zAL-k8-NJL"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="4qR-dK-ryB" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="Bge-Zi-W4C"/>
+                <constraint firstItem="4qR-dK-ryB" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" id="VTb-mc-10N"/>
+                <constraint firstItem="4qR-dK-ryB" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" id="XUo-dK-u4d"/>
+                <constraint firstItem="4qR-dK-ryB" firstAttribute="centerY" secondItem="ZTg-uK-7eu" secondAttribute="centerY" id="mol-Mn-8na"/>
+            </constraints>
+            <size key="customSize" width="261" height="88"/>
+            <connections>
+                <outlet property="cellView" destination="4qR-dK-ryB" id="FXl-Jz-Dsr"/>
+                <outlet property="labelID" destination="lRB-PI-dR8" id="Vt6-Fz-PRC"/>
+                <outlet property="labelTitle" destination="Bdb-7f-geT" id="rrk-qY-Fxg"/>
+            </connections>
+            <point key="canvasLocation" x="283.19999999999999" y="74.212893553223395"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
