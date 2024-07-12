@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TableViewDatadelete" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BV3-Hq-hjg">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Your Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yzt-RI-BhI">
+                                        <rect key="frame" x="31" y="64" width="352" height="45"/>
+                                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eKS-Wa-irm">
+                                        <rect key="frame" x="31" y="130.5" width="352" height="45"/>
+                                        <color key="backgroundColor" red="1" green="0.43310313779999998" blue="0.078215845320000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="SAVE">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="BtnforSAVE:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WRl-Nb-uaC"/>
+                                        </connections>
+                                    </button>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="oiv-Kv-caR">
+                                        <rect key="frame" x="31" y="193" width="352" height="672"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="yzt-RI-BhI" firstAttribute="height" secondItem="BV3-Hq-hjg" secondAttribute="height" multiplier="0.05" id="1w6-fN-YBq"/>
+                                    <constraint firstItem="oiv-Kv-caR" firstAttribute="height" secondItem="eKS-Wa-irm" secondAttribute="height" multiplier="15" id="6Ak-Eb-eEN"/>
+                                    <constraint firstItem="yzt-RI-BhI" firstAttribute="width" secondItem="BV3-Hq-hjg" secondAttribute="width" multiplier="0.85" id="Edh-7F-wUu"/>
+                                    <constraint firstItem="oiv-Kv-caR" firstAttribute="top" secondItem="eKS-Wa-irm" secondAttribute="bottom" multiplier="1.1" id="Hey-tv-tE0"/>
+                                    <constraint firstItem="eKS-Wa-irm" firstAttribute="width" secondItem="yzt-RI-BhI" secondAttribute="width" id="LIY-wS-zgd"/>
+                                    <constraint firstAttribute="centerY" secondItem="yzt-RI-BhI" secondAttribute="top" multiplier="7" id="POS-Mq-Nwt"/>
+                                    <constraint firstItem="oiv-Kv-caR" firstAttribute="centerX" secondItem="eKS-Wa-irm" secondAttribute="centerX" id="Qr1-qV-rXE"/>
+                                    <constraint firstItem="eKS-Wa-irm" firstAttribute="top" secondItem="yzt-RI-BhI" secondAttribute="bottom" multiplier="1.2" id="VXj-zS-Fzn"/>
+                                    <constraint firstItem="eKS-Wa-irm" firstAttribute="centerX" secondItem="yzt-RI-BhI" secondAttribute="centerX" id="X6p-bb-Tcb"/>
+                                    <constraint firstItem="yzt-RI-BhI" firstAttribute="centerX" secondItem="BV3-Hq-hjg" secondAttribute="centerX" id="bIf-Sd-hea"/>
+                                    <constraint firstItem="oiv-Kv-caR" firstAttribute="width" secondItem="eKS-Wa-irm" secondAttribute="width" id="e1Y-hS-QEM"/>
+                                    <constraint firstItem="eKS-Wa-irm" firstAttribute="height" secondItem="yzt-RI-BhI" secondAttribute="height" id="iC0-n0-d5u"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="BV3-Hq-hjg" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="fOc-Dr-mmo"/>
+                            <constraint firstItem="BV3-Hq-hjg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="iVV-r7-KNJ"/>
+                            <constraint firstItem="BV3-Hq-hjg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nVM-ES-q67"/>
+                            <constraint firstItem="BV3-Hq-hjg" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="wse-qa-Ggi"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tblvw" destination="oiv-Kv-caR" id="Jhg-C1-VVE"/>
+                        <outlet property="txtfldName" destination="yzt-RI-BhI" id="afi-aa-sj8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="45.535714285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
