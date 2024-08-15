@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="A0S-Z9-hqt">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--FirstVC-->
+        <scene sceneID="SnD-WY-z1w">
+            <objects>
+                <viewController id="xxH-7r-mhf" customClass="FirstVC" customModule="WebviewTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zUl-ts-Bst">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dMC-61-3OR">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cmj-Dl-xuK">
+                                        <rect key="frame" x="37.5" y="66.5" width="300" height="100.5"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="Ajio"/>
+                                        <connections>
+                                            <action selector="btnAjiowebsite:" destination="xxH-7r-mhf" eventType="touchUpInside" id="RaB-Mg-ROe"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rxI-Is-gOq">
+                                        <rect key="frame" x="37.5" y="200" width="300" height="100"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="Amazon"/>
+                                        <connections>
+                                            <action selector="btnAmazonwebsite:" destination="xxH-7r-mhf" eventType="touchUpInside" id="KOp-xR-JAy"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="89L-5Y-5sI">
+                                        <rect key="frame" x="37.5" y="345" width="300" height="100.5"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="Flipkart"/>
+                                        <connections>
+                                            <action selector="btnFlipkartwebsite:" destination="xxH-7r-mhf" eventType="touchUpInside" id="88k-AE-5iM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ag1-o8-Nd2">
+                                        <rect key="frame" x="37.5" y="512.5" width="300" height="100.5"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="Myntra"/>
+                                        <connections>
+                                            <action selector="btnMyntrawebsite:" destination="xxH-7r-mhf" eventType="touchUpInside" id="4pg-Gn-DFU"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="Ag1-o8-Nd2" firstAttribute="centerX" secondItem="89L-5Y-5sI" secondAttribute="centerX" id="2sc-Pc-0n5"/>
+                                    <constraint firstItem="Cmj-Dl-xuK" firstAttribute="width" secondItem="dMC-61-3OR" secondAttribute="width" multiplier="0.8" id="9ek-zq-De9"/>
+                                    <constraint firstItem="89L-5Y-5sI" firstAttribute="height" secondItem="rxI-Is-gOq" secondAttribute="height" multiplier="1.005" id="GgR-Z7-aiF"/>
+                                    <constraint firstItem="Cmj-Dl-xuK" firstAttribute="centerX" secondItem="dMC-61-3OR" secondAttribute="centerX" id="Gyc-Gd-opm"/>
+                                    <constraint firstItem="89L-5Y-5sI" firstAttribute="width" secondItem="rxI-Is-gOq" secondAttribute="width" id="IPl-44-mrO"/>
+                                    <constraint firstItem="Ag1-o8-Nd2" firstAttribute="height" secondItem="89L-5Y-5sI" secondAttribute="height" id="NCr-PI-7jf"/>
+                                    <constraint firstItem="Cmj-Dl-xuK" firstAttribute="top" secondItem="dMC-61-3OR" secondAttribute="centerY" multiplier="0.2" id="NKd-Ke-3vw"/>
+                                    <constraint firstItem="rxI-Is-gOq" firstAttribute="width" secondItem="Cmj-Dl-xuK" secondAttribute="width" id="VCe-6h-6iU"/>
+                                    <constraint firstItem="Ag1-o8-Nd2" firstAttribute="top" secondItem="89L-5Y-5sI" secondAttribute="bottom" multiplier="1.15" id="WPR-4E-ILX"/>
+                                    <constraint firstItem="89L-5Y-5sI" firstAttribute="top" secondItem="rxI-Is-gOq" secondAttribute="bottom" multiplier="1.15" id="XRB-ay-fC8"/>
+                                    <constraint firstItem="rxI-Is-gOq" firstAttribute="height" secondItem="Cmj-Dl-xuK" secondAttribute="height" id="kFN-qb-iUO"/>
+                                    <constraint firstItem="rxI-Is-gOq" firstAttribute="top" secondItem="Cmj-Dl-xuK" secondAttribute="bottom" multiplier="1.2" id="mm0-Jr-LNJ"/>
+                                    <constraint firstItem="89L-5Y-5sI" firstAttribute="centerX" secondItem="rxI-Is-gOq" secondAttribute="centerX" id="rbb-2h-rTQ"/>
+                                    <constraint firstItem="rxI-Is-gOq" firstAttribute="centerX" secondItem="Cmj-Dl-xuK" secondAttribute="centerX" id="rlR-vz-Fuq"/>
+                                    <constraint firstItem="Cmj-Dl-xuK" firstAttribute="height" secondItem="dMC-61-3OR" secondAttribute="height" multiplier="0.15" id="tLF-Ga-jyu"/>
+                                    <constraint firstItem="Ag1-o8-Nd2" firstAttribute="width" secondItem="89L-5Y-5sI" secondAttribute="width" id="yLG-di-TAI"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="UAI-cp-dcC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="dMC-61-3OR" firstAttribute="centerX" secondItem="zUl-ts-Bst" secondAttribute="centerX" id="5Xi-kn-voa"/>
+                            <constraint firstItem="dMC-61-3OR" firstAttribute="height" secondItem="zUl-ts-Bst" secondAttribute="height" id="6C9-gq-1N9"/>
+                            <constraint firstItem="dMC-61-3OR" firstAttribute="width" secondItem="zUl-ts-Bst" secondAttribute="width" id="sZ1-4E-Lkz"/>
+                            <constraint firstItem="dMC-61-3OR" firstAttribute="centerY" secondItem="zUl-ts-Bst" secondAttribute="centerY" id="x5Z-0V-KnK"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="C3P-qY-xVY"/>
+                    <connections>
+                        <outlet property="btnAjio" destination="Cmj-Dl-xuK" id="zF2-se-caD"/>
+                        <outlet property="btnAmazon" destination="rxI-Is-gOq" id="Pwg-Ow-CvX"/>
+                        <outlet property="btnFlipkart" destination="89L-5Y-5sI" id="wbY-U5-Koc"/>
+                        <outlet property="btnMyntra" destination="Ag1-o8-Nd2" id="w12-Kr-WMS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wom-Yi-Gn3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1536.8" y="-102.99850074962519"/>
+        </scene>
+        <!--SecondVC-->
+        <scene sceneID="aZf-Tm-Hzg">
+            <objects>
+                <viewController storyboardIdentifier="SecondVC" id="3Wl-cD-oPd" customClass="SecondVC" customModule="WebviewTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JBw-2C-OCL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="URC-ps-KnL">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jPs-bP-7Zb">
+                                        <rect key="frame" x="7.5" y="26.5" width="75" height="33.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Back">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="backButton:" destination="3Wl-cD-oPd" eventType="touchUpInside" id="s8U-FA-dRb"/>
+                                        </connections>
+                                    </button>
+                                    <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LN7-27-fhl">
+                                        <rect key="frame" x="0.0" y="60" width="375" height="600.5"/>
+                                        <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <wkWebViewConfiguration key="configuration">
+                                            <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                            <wkPreferences key="preferences"/>
+                                        </wkWebViewConfiguration>
+                                    </wkWebView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="LN7-27-fhl" firstAttribute="height" secondItem="URC-ps-KnL" secondAttribute="height" multiplier="0.9" id="CcP-pd-9ts"/>
+                                    <constraint firstItem="jPs-bP-7Zb" firstAttribute="top" secondItem="URC-ps-KnL" secondAttribute="centerY" multiplier="0.08" id="GCP-ft-gXE"/>
+                                    <constraint firstItem="jPs-bP-7Zb" firstAttribute="height" secondItem="URC-ps-KnL" secondAttribute="height" multiplier="0.05" id="Lcn-K3-m3V"/>
+                                    <constraint firstItem="jPs-bP-7Zb" firstAttribute="leading" secondItem="URC-ps-KnL" secondAttribute="centerX" multiplier="0.04" id="Lte-Cv-03F"/>
+                                    <constraint firstItem="LN7-27-fhl" firstAttribute="centerX" secondItem="URC-ps-KnL" secondAttribute="centerX" id="PXF-Xw-UwX"/>
+                                    <constraint firstItem="LN7-27-fhl" firstAttribute="top" secondItem="jPs-bP-7Zb" secondAttribute="bottom" id="YWI-Zt-Ts0"/>
+                                    <constraint firstItem="jPs-bP-7Zb" firstAttribute="width" secondItem="URC-ps-KnL" secondAttribute="width" multiplier="0.2" id="aNf-Td-jPe"/>
+                                    <constraint firstItem="LN7-27-fhl" firstAttribute="width" secondItem="URC-ps-KnL" secondAttribute="width" id="oRn-YD-zvN"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ivX-Ni-J1s"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="URC-ps-KnL" firstAttribute="height" secondItem="JBw-2C-OCL" secondAttribute="height" id="3IO-Ei-fzH"/>
+                            <constraint firstItem="URC-ps-KnL" firstAttribute="width" secondItem="JBw-2C-OCL" secondAttribute="width" id="O59-kX-qez"/>
+                            <constraint firstItem="URC-ps-KnL" firstAttribute="centerY" secondItem="JBw-2C-OCL" secondAttribute="centerY" id="Tvq-i2-u6V"/>
+                            <constraint firstItem="URC-ps-KnL" firstAttribute="centerX" secondItem="JBw-2C-OCL" secondAttribute="centerX" id="o31-Od-xab"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="LN7-27-fhl" id="GbL-HP-lhz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j0r-D5-3Gp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2621.5999999999999" y="-103.89805097451276"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="UQC-tP-rVs">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="A0S-Z9-hqt" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cYM-Jk-pTF">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="xxH-7r-mhf" kind="relationship" relationship="rootViewController" id="Me8-a6-FqV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uMQ-ch-lLT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="597.60000000000002" y="-103.89805097451276"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Ajio" width="360" height="142"/>
+        <image name="Amazon" width="200" height="200"/>
+        <image name="Flipkart" width="348" height="348"/>
+        <image name="Myntra" width="200" height="74"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
