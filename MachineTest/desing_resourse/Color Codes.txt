@@ -1,0 +1,6 @@
+Blue = #2683C6
+Yellow = #FFAB00
+Login (User Name, Password) Blue text = #2699FB
+
+Notification Welcome text color = #2683C6
+Notification child item text color = #2699FB
